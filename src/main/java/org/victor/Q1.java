@@ -1,0 +1,17 @@
+package org.victor;
+
+public class Q1 {
+    public static void main(String[] args) {
+        int indice = 13;
+        int soma = 0;
+        int k = 0;
+
+        while (k < indice) {
+            k++;
+            soma += k;
+        }
+
+        System.out.println(soma);
+        // Valor de soma será 91
+    }
+}
